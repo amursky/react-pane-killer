@@ -8,13 +8,28 @@
   "bugs": "https://github.com/amursky/react-pane-killer/issues",
   "homepage": "https://github.com/amursky/react-pane-killer#readme",
   "keywords": [
-    "react",
     "pane",
-    "layout",
+    "react",
     "split"
   ],
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "csx": "^10.0.2",
+    "react": "^17.0.1",
+    "typestyle": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "csx": "^10.0.2",
+    "react": "^17.0.1",
+    "typescript": "^4.1.3",
+    "typestyle": "^2.1.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "all"
   }
 }
