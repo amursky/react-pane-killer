@@ -1,0 +1,20 @@
+{
+  "name": "react-pane-killer",
+  "description": "An ultimate solution for creating panes layout in your React application.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Ilya Amursky <amursky@pm.me>",
+  "repository": "git+https://github.com/amursky/react-pane-killer.git",
+  "bugs": "https://github.com/amursky/react-pane-killer/issues",
+  "homepage": "https://github.com/amursky/react-pane-killer#readme",
+  "keywords": [
+    "react",
+    "pane",
+    "layout",
+    "split"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
